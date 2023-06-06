@@ -103,7 +103,8 @@ def musicWindow():
     Stop=Button(window,text="Stop",bd=1,width=10,bg='SkyBlue', font = ("Calibri",10), command = stop)
     Stop.place(x=200,y=200)
 
-       
+    ResumeButton=Button(window,text='resume',width=10,bd=1,bg='SkyBlue',font=('Calibri',10),command=resume)
+    ResumeButton.place(x=30,y=250
     
     Upload=Button(window,text="Upload",width=10,bd=1,bg='SkyBlue', font = ("Calibri",10))
     Upload.place(x=30,y=300)
@@ -113,6 +114,8 @@ def musicWindow():
     
     infoLabel = Label(window, text= "",fg= "blue",bg='SkyBlue', font = ("Calibri",8))
     infoLabel.place(x=4, y=330)
+    
+    PauseButton=Button(window,text="Pause",width=10,bd=1,bg='SkyBlue',font=("calibri"10),cammand=pause)
     
     window.mainloop()
     
